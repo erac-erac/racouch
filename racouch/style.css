@@ -1,0 +1,70 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+/* Base style inspired by Evalina's vibe */\
+body \{\
+  margin: 0;\
+  font-family: 'Georgia', serif;\
+  background: #ffffff;\
+  color: #222;\
+  line-height: 1.6;\
+\}\
+\uc0\u8232 \
+header \{\
+  padding: 20px;\
+  display: flex;\
+  justify-content: space-between;\
+  align-items: center;\
+  max-width: 900px;\
+  margin: auto;\
+\}\
+\uc0\u8232 \
+nav a \{\
+  margin-left: 20px;\
+  text-decoration: none;\
+  color: #222;\
+\}\
+\uc0\u8232 \
+#hero img \{\
+  width: 100%;\
+  height: auto;\
+  display: block;\
+\}\
+\uc0\u8232 \
+section \{\
+  max-width: 900px;\
+  margin: 60px auto;\
+  padding: 0 20px;\
+\}\
+\uc0\u8232 \
+h1, h2 \{\
+  font-family: 'Georgia', serif;\
+  margin-bottom: 10px;\
+\}\
+\uc0\u8232 \
+.gallery \{\
+  display: grid;\
+  grid-template-columns: 1fr 1fr 1fr;\
+  gap: 20px;\
+\}\
+\uc0\u8232 \
+.gallery img \{\
+  width: 100%;\
+  height: auto;\
+  object-fit: cover;\
+  border: 1px solid #eee;\
+\}\
+\uc0\u8232 \
+footer \{\
+  text-align: center;\
+  padding: 40px 20px;\
+  font-size: 0.8em;\
+  color: #666;\
+\}\
+}
